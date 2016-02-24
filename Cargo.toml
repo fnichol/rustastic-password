@@ -37,6 +37,18 @@ termios = "0.2"
 [target.mips-unknown-linux-gnu.dependencies]
 libc = "0.2"
 termios = "0.2"
+[target.i686-unknown-linux-musl.dependencies]
+libc = "0.2"
+termios = "0.2"
+[target.x86_64-unknown-linux-musl.dependencies]
+libc = "0.2"
+termios = "0.2"
+[target.mips-unknown-linux-musl.dependencies]
+libc = "0.2"
+termios = "0.2"
+[target.mipsel-unknown-linux-musl.dependencies]
+libc = "0.2"
+termios = "0.2"
 [target.i686-unknown-freebsd.dependencies]
 libc = "0.2"
 termios = "0.2"
